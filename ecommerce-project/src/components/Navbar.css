@@ -1,0 +1,132 @@
+.navbar {
+  background-color: #0701A4;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  width: 150px;
+  margin: 10px 0 10px 180px;
+}
+
+.navbar__search {
+  display: flex;
+  align-self: center;
+  margin-left: 100px;
+}
+
+.navbar__searchbar {
+  border: none;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+  padding: 13px;
+  width: 500px;
+}
+
+.navbar__searchButton {
+  border: none;
+  background-color: #fff;
+  outline: none;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+}
+
+.navbar__searchIcon {
+  color: #0701A4;
+  padding-right: 5px;
+}
+
+.navbar__searchIcon:active {
+  color: #ffffff;
+  background: #0701A4;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.navbar__rightLinks {
+  display: flex;
+  flex-flow: row;
+}
+
+.navbar__link {
+  text-decoration: none;
+}
+
+.navbar__option {
+  color: #fff;
+}
+
+.navbar__inloggenText {
+  margin: 0 10px 0 130px;
+  font-size: 13px;
+}
+
+.navbar__inloggenText:hover {
+  text-decoration: underline;
+}
+
+.navbar__icon {
+  margin-right: 10px;
+}
+
+.navbar__icon:hover {
+  background: #4845ad;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1271px) {
+  .navbar__logo {
+    margin: 10px 0 10px 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar__logo {
+    margin: 10px 0 10px 30px;
+  }
+  .navbar__inloggenText {
+    margin: 0 10px 0 100px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .navbar__logo {
+    margin: 10px 0 10px 20px;
+  }
+  .navbar__inloggenText {
+    margin: 0 10px 0 70px;
+  }
+}
+
+@media only screen and (max-width: 1044px) {
+  .navbar__inloggenText {
+    margin: 0 10px 0 40px;
+  }
+  .navbar__search {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 962px) {
+  .navbar {
+    height: 66px;
+    display: flex;
+    align-items: center;
+  }
+  .navbar__logo {
+    display: none;
+  }
+  .navbar__rightLinks {
+    display: none;
+  }
+  .navbar__search {
+    margin: 0 0 0 10px;
+  }
+  .navbar__searchbar {
+    width: 84vw;
+  }
+}
+
+
+
+

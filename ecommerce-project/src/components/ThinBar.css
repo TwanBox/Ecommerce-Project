@@ -1,0 +1,31 @@
+.thinbar {
+  background-color: #fff;
+  margin-left: 150px;
+  padding: 5px;
+  font-size: 12px;
+  color:#0701A4;
+  padding: 6px;
+}
+
+.thinbar__text {
+  margin-right: 20px;
+  list-style-type: none;
+  display: inline;
+}
+
+@media only screen and (max-width: 1271px) {
+    .thinbar {
+      display: none;
+    }
+}
+
+.thinbar__selectItem {
+  color: #20AF43;
+  font-size: 12px;
+  margin-left: 220px;
+}
+
+
+.thinbar__selectText {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

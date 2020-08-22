@@ -1,0 +1,33 @@
+.navbarSmall {
+  display:none;
+  margin: 6px 0;
+}
+
+.navbarSmall__logo {
+  width: 130px;
+  margin-left: 10px;
+  padding: 0px 0 10px 0;
+}
+
+.navbarSmall__menuIcon {
+  align-self: center;
+  color: #0701A4;
+  margin-left: 20px;
+}
+
+.navbarSmall__navIcons {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.navbarSmall__link {
+  color: #0701A4;
+  margin-right: 13px;
+}
+
+@media only screen and (max-width: 962px) {
+  .navbarSmall {
+    display: flex;
+    align-items: center;
+  }
+}
