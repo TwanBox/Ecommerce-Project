@@ -16,7 +16,10 @@ const ThinBar = () => {
             <span><strong>Gratis</strong> retourneren</span>
           </li>
           <li className="thinbar__text">
-            <span className="thinbar__selectItem"><strong className="thinbar__selectText">Select</strong> Ontdek het nu voor 9,99 p.j.</span>
+            <span className="thinbar__selectItem">
+            <strong className="thinbar__selectText">Select</strong>
+            Ontdek het nu voor 9,99 p.j.
+            </span>
           </li>
         </ul>
       </nav>

@@ -18,11 +18,11 @@ function App() {
           <Route path="/lijstjes" >
             <h1>Lijstjes</h1>
           </Route>
-          <Route path="/afrekenen" >
-            <h1>Afrekenen</h1>
-          </Route>
           <Route path="/inloggen" >
             <h1>Inloggen</h1>
+          </Route>
+          <Route path="/winkelwagentje" >
+            <h1>winkelwagentje</h1>
           </Route>
           <Route path="/" >
             <Home />

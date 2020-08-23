@@ -14,8 +14,7 @@ const NavbarSmall = () => {
         </Link>
         <Link to="/">
           <img 
-            className="navbarSmall__logo" 
-            // src="https://pers.be.bol.com/app/files/2018/05/bolcom_logo_pay-off_blauw_rgb.png"
+            className="navbarSmall__logo"
             src="https://pers.bol.com/app/files/2019/06/bol-com-logo.png"
             alt="navbar-logo"
           />

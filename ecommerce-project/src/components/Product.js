@@ -2,8 +2,26 @@ import React from 'react';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import './Product.css'
+import { useStateValue } from './StateProvider';
 
 const Product = ({ id, image, brand, name, spec, rating, ratingCount, price }) => {
+  const [{ winkelmandje }, dispatch] = useStateValue();
+
+  const addItem = () => {
+    dispatch({
+      type: 'ADD_ITEM',
+      item: {
+        id,
+        image,
+        brand,
+        name,
+        rating,
+        ratingCount,
+        price,
+      }
+    })
+  }
+
   return (
     <>
       <div className="product">
@@ -16,9 +34,9 @@ const Product = ({ id, image, brand, name, spec, rating, ratingCount, price }) =
           <span>{`(${ratingCount})`}</span>
         </div>
         <div className="product__buttons">
-          <h3>{price}</h3>
-          <button><FavoriteBorderIcon/></button>
-          <button><ShoppingCartOutlinedIcon/></button>
+          <h3 className="product_price">{price}</h3>
+          <button onClick={addItem} className="product__cartButton"><ShoppingCartOutlinedIcon/></button>
+          <button className="product__heartButton"><FavoriteBorderIcon/></button>
         </div>
       </div>
   </>
