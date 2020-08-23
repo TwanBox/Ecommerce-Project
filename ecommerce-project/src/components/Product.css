@@ -1,0 +1,12 @@
+.product {
+  display: flex;
+  margin: 20px 0;
+}
+
+.product__buttons {
+  margin-left: 20px;
+}
+
+.product__info {
+  margin-left: 40px;
+}
