@@ -29,16 +29,23 @@ const Navbar = () => {
         <Link to="/inloggen" className="navbar__link">
           <div className="navbar__option">
             <span className="navbar__inloggenText">Inloggen</span>
-            {/* <span>Welkom <strong>Twan</strong></span>
-            <PersonOutlinedIcon/> */}
           </div>
         </Link>
+        {/* <div className="navbar__option navbar__loginOption">
+            <span>Welkom</span>
+            <span><strong>Twan</strong></span>
+        </div>
+        <Link to="/account" className="navbar__link">
+          <div className="navbar__option navbar__icon">
+            <PersonOutlinedIcon/>
+          </div>
+        </Link> */}
         <Link to="/lijstjes" className="navbar__link">
           <div className="navbar__option navbar__icon">
             <FavoriteBorderIcon/>
           </div>
         </Link>
-        <Link to="/winkelwagentje" className="navbar__link">
+        <Link to="/afrekenen" className="navbar__link">
           <div className="navbar__option navbar__icon">
             <ShoppingCartOutlinedIcon/>
           </div>

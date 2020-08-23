@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerf {
+  width: 73%;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 1309px) {
+  .bannerf {
+    width: 90%;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 962px) {
+  .bannerf {
+    width: 100%;
+    margin: 0;
+  }
+}
