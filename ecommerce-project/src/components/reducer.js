@@ -11,7 +11,13 @@ const reducer = (state, action) => {
         winkelmandje: [...state.winkelmandje, action.item],
       };
     case 'REMOVE_ITEM':
-      return { state }
+      let newMandje = [...state.winkelmandje];
+      const index = state.winkelmandje.findIndex((item) => item.id === action.id);
+      if (index >= 0) {
+        newMandje.splice(index, 1);
+      }
+
+      return { ...state, winkelmandje: newMandje }
     default:
       return state;
   }

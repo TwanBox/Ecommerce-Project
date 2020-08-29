@@ -51,6 +51,7 @@ const Winkelwagentje = () => {
           {winkelmandje.map(({ id, image, name, brand, price, rating, ratingCount }) => (
             <WinkelwagentjeProduct 
               key={id}
+              id={id}
               image={image}
               name={name}
               brand={brand}

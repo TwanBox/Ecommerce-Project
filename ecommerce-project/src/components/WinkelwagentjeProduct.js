@@ -1,11 +1,16 @@
 import React from 'react';
-import DeleteIcon from '@material-ui/icons/Delete';
-import { Link } from 'react-router-dom';
 import './WinkelwagentjeProduct.css';
 import { useStateValue } from './StateProvider';
 
-const WinkelwagentjeProduct = ({ key, image, name, brand, rating, ratingCount, price }) => {
+const WinkelwagentjeProduct = ({ id, image, name, brand, rating, ratingCount, price }) => {
   const [{mandje}, dispatch] = useStateValue();
+
+  const verwijderUitMandje = () => {
+    dispatch({
+      type: "REMOVE_ITEM",
+      id: id,
+    })
+  }
 
   return (
     <>
