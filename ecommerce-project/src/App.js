@@ -5,6 +5,7 @@ import ThinBar from './components/ThinBar';
 import NavbarSmall from './components/NavbarSmall';
 import Home from './components/Home';
 import './App.css';
+import Winkelwagentje from './components/Winkelwagentje';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <h1>Inloggen</h1>
           </Route>
           <Route path="/winkelwagentje" >
-            <h1>winkelwagentje</h1>
+            <Winkelwagentje />
           </Route>
           <Route path="/" >
             <Home />

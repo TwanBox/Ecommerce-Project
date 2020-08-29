@@ -17,8 +17,8 @@ const ThinBar = () => {
           </li>
           <li className="thinbar__text">
             <span className="thinbar__selectItem">
-            <strong className="thinbar__selectText">Select</strong>
-            Ontdek het nu voor 9,99 p.j.
+              <strong className="thinbar__selectText">Select </strong> 
+              Ontdek het nu voor 9,99 p.j.
             </span>
           </li>
         </ul>

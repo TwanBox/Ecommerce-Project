@@ -1,0 +1,65 @@
+.winkelwagentjeProduct {
+  display: flex;
+  flex-direction: row;
+}
+
+.deleteIcon {
+  scale: (0.3);
+}
+
+.winkelwagentjeProduct__image {
+  width: 7vw;
+  margin: 10px 10px 10px 0;
+}
+
+.winkelwagentjeProduct__info {
+  flex-direction: column;
+  margin: 20px 300px 20px 0;
+}
+
+.winkelwagentjeProduct__opVoorraad {
+  margin-right: 20px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.winkelwagentjeProduct__price {
+  margin: 20px 0;
+}
+
+.winkelwagentjeProduct__verwijderLink {
+  color: blue;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none
+}
+
+.winkelwagentjeProduct__verwijderLink:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 789px) {
+  .winkelwagentjeProduct__image {
+    width: 9vw;
+    height: 9vh;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .winkelwagentjeProduct__info {
+    margin: 20px 200px 20px 0;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .winkelwagentjeProduct__info {
+    margin: 20px 180px 20px 0;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .winkelwagentjeProduct__info {
+    margin: 20px 70px 20px 0;
+  }
+}

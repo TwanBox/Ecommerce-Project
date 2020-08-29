@@ -28,7 +28,7 @@ const Home = () => {
         specs="Geschikt voor Apple (iOS) | Met afstandsbediening | Met microfoon | Met Lightning aansluiting"
         rating="⭐⭐⭐⭐"
         ratingCount={438}
-        price={23}
+        price={20}
       />
       <Product
         id="4357865467833ID"
@@ -47,7 +47,7 @@ const Home = () => {
         spacs="iOS 13 | 10.2 inch | 32 GB geheugen | 2 jaar fabrieksgarantie"
         rating="⭐⭐⭐⭐⭐"
         ratingCount={147}
-        price={369}
+        price={365}
       />
     </div>
   );
