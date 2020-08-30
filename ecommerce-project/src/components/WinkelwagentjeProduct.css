@@ -9,22 +9,26 @@
 
 .winkelwagentjeProduct__image {
   width: 7vw;
+  height: 13vh;
   margin: 10px 10px 10px 0;
 }
 
 .winkelwagentjeProduct__info {
   flex-direction: column;
-  margin: 20px 300px 20px 0;
-}
-
-.winkelwagentjeProduct__opVoorraad {
-  margin-right: 20px;
-  margin-top: 20px;
-  font-weight: 300;
+  margin: 20px 0 20px 0;
 }
 
 .winkelwagentjeProduct__price {
   margin: 20px 0;
+}
+
+.winkelwagentjeProduct__priceAndBtn {
+  margin-left: 70px;
+}
+
+.winkelwagentjeProduct__opVoorraad {
+  margin-left: auto;
+  margin-top: 20px;
 }
 
 .winkelwagentjeProduct__verwijderLink {
@@ -61,5 +65,11 @@
 @media only screen and (max-width: 664px) {
   .winkelwagentjeProduct__info {
     margin: 20px 70px 20px 0;
+  }
+}
+
+@media only screen and (max-width: 627px) {
+  .winkelwagentjeProduct__opVoorraad {
+    display: none;
   }
 }

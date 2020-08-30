@@ -3,6 +3,7 @@ import { useStateValue } from './StateProvider';
 import { Link } from 'react-router-dom';
 import WinkelwagentjeProduct from './WinkelwagentjeProduct';
 import Checkbox from '@material-ui/core/Checkbox';
+import Afrekenen from './Afrekenen';
 import './winkelwagentje.css'
 
 const Winkelwagentje = () => {
@@ -71,6 +72,7 @@ const Winkelwagentje = () => {
             </div>
           </div>
           <hr></hr>
+          <Afrekenen />
         </div>
       )}
     </div>

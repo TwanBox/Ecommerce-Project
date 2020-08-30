@@ -1,0 +1,32 @@
+.afrekenen__wrapper {
+  background-color: #fefae5;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.afrekenen__info {
+  width: 300px;
+  margin-left: auto;
+}
+
+.afrekenen__btnBestellen {
+  border-radius: 0%;
+  outline: none;
+  border: 1px solid lightgray;
+  color: #fff;
+  background-color: blue;
+  margin-top: 20px;
+  padding: 10px; 
+  cursor: pointer;
+  margin-left: 135px;
+}
+
+.afrekenen__flexRow {
+  display: flex;
+}
+
+.afrekenen__toLeft {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 14px;
+}

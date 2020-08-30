@@ -37,7 +37,7 @@ const Home = () => {
         name="Belkin Mixit Apple Lightning naar USB-C kabel - 1.2m - Zwart"
         rating="⭐⭐⭐⭐⭐"
         ratingCount="45"
-        price={24}
+        price={23.99}
       />
       <Product
         id="23423423467543ID"

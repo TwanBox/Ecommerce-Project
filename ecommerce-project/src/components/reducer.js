@@ -2,6 +2,9 @@ export const initialState = {
   winkelmandje: [],
 };
 
+export const getTotalPrice = (winkelmandje) =>
+winkelmandje?.reduce((price, item) => item.price + price, 0);
+
 const reducer = (state, action) => {
   console.log(action)
   switch (action.type) {

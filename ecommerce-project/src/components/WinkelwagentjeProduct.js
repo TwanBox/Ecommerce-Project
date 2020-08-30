@@ -3,7 +3,7 @@ import './WinkelwagentjeProduct.css';
 import { useStateValue } from './StateProvider';
 
 const WinkelwagentjeProduct = ({ id, image, name, brand, rating, ratingCount, price }) => {
-  const [{mandje}, dispatch] = useStateValue();
+  const [{winkelmandje}, dispatch] = useStateValue();
 
   const verwijderUitMandje = () => {
     dispatch({
@@ -23,7 +23,7 @@ const WinkelwagentjeProduct = ({ id, image, name, brand, rating, ratingCount, pr
           <span>{`(${ratingCount})`}</span>
         </div>
         <p className="winkelwagentjeProduct__opVoorraad">Op voorraad. Voor 23:59 uur besteld,<br></br> maandag in huis</p>
-        <div>
+        <div className="winkelwagentjeProduct__priceAndBtn">
           <h3 className="winkelwagentjeProduct__price">{`€${price}`}</h3>
           <button 
             className="winkelwagentjeProduct__verwijderLink" 

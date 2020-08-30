@@ -25,7 +25,7 @@ const Product = ({ id, image, brand, name, spec, rating, ratingCount, price }) =
   return (
     <>
       <div className="product">
-        <img src={image} alt={brand}/>
+        <img className="product__img" src={image} alt={brand}/>
         <div className="product__info">
           <p>{brand}</p>
           <p>{name}</p>
