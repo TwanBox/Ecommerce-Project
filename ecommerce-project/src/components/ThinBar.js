@@ -7,17 +7,23 @@ const ThinBar = () => {
       <nav className="thinbar">
         <ul>
           <li className="thinbar__text">
-            <span><strong>Gratis</strong> verzending vanaf 20,-</span>
+            <span>
+              <strong>Gratis </strong>
+              verzending vanaf 20,-
+            </span>
           </li>
           <li className="thinbar__text">
-            <span>Bezorging dezelfde dag, 's avonds of in het weekend*</span>
+            <span>Bezorging dezelfde dag, &apos;s avonds of in het weekend*</span>
           </li>
           <li className="thinbar__text">
-            <span><strong>Gratis</strong> retourneren</span>
+            <span>
+              <strong>Gratis </strong>
+              retourneren
+            </span>
           </li>
           <li className="thinbar__text">
             <span className="thinbar__selectItem">
-              <strong className="thinbar__selectText">Select </strong> 
+              <strong className="thinbar__selectText">Select </strong>
               Ontdek het nu voor 9,99 p.j.
             </span>
           </li>

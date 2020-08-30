@@ -28,7 +28,7 @@ const Home = () => {
         specs="Geschikt voor Apple (iOS) | Met afstandsbediening | Met microfoon | Met Lightning aansluiting"
         rating="⭐⭐⭐⭐"
         ratingCount={438}
-        price={20}
+        price={21.78}
       />
       <Product
         id="4357865467833ID"
@@ -37,7 +37,7 @@ const Home = () => {
         name="Belkin Mixit Apple Lightning naar USB-C kabel - 1.2m - Zwart"
         rating="⭐⭐⭐⭐⭐"
         ratingCount="45"
-        price={23.99}
+        price={24.49}
       />
       <Product
         id="23423423467543ID"

@@ -1,10 +1,9 @@
 import React from 'react';
-import { useStateValue } from './StateProvider';
 import { Link } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 import WinkelwagentjeProduct from './WinkelwagentjeProduct';
-import Checkbox from '@material-ui/core/Checkbox';
 import Afrekenen from './Afrekenen';
-import './winkelwagentje.css'
+import './winkelwagentje.css';
 
 const Winkelwagentje = () => {
   const [{ winkelmandje }] = useStateValue();
@@ -16,8 +15,8 @@ const Winkelwagentje = () => {
           <h1>Winkelwagentje</h1>
           <p>Er staan geen artikelen in het Winkelwagentje</p>
           <Link to="/">
-            <button 
-              type="button" 
+            <button
+              type="button"
               className="winkelwagentje__btn"
             >
               {'< Verder winkelen'}
@@ -32,25 +31,27 @@ const Winkelwagentje = () => {
           </div>
           <div className="winkelwagentje__flexRow">
             <Link to="/">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="winkelwagentje__btn"
               >
                 {'< Verder Winkelen'}
               </button>
             </Link>
             <Link to="/">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="winkelwagentje__btnBestellen"
               >
                 {'> Verder naar bestellen'}
               </button>
             </Link>
           </div>
-          <hr className="winkelwagentje__hr"></hr>
-          {winkelmandje.map(({ id, image, name, brand, price, rating, ratingCount }) => (
-            <WinkelwagentjeProduct 
+          <hr className="winkelwagentje__hr" />
+          {winkelmandje.map(({
+            id, image, name, brand, price, rating, ratingCount,
+          }) => (
+            <WinkelwagentjeProduct
               key={id}
               id={id}
               image={image}
@@ -64,14 +65,18 @@ const Winkelwagentje = () => {
           <div className="winkelwagentje__selectWrapper">
             <h2 className="winkelwagentje__selectBottom">Select</h2>
             <div>
-              <p className="winkelwagentje__selectGreen">Neem <strong>Select</strong> erbij voor € 9,99 p.j.</p>
+              <p className="winkelwagentje__selectGreen">
+                Neem
+                <strong> Select </strong>
+                erbij voor € 9,99 p.j.
+              </p>
               <p>en krijg meer gemak en voordeel</p>
-              <Link>
+              <Link to="/">
                 <p className="winkelwagentje__selectBlue">{'> Wat is select?'}</p>
               </Link>
             </div>
           </div>
-          <hr></hr>
+          <hr />
           <Afrekenen />
         </div>
       )}

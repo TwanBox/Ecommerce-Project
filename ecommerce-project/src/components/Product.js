@@ -1,10 +1,12 @@
 import React from 'react';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
-import './Product.css'
 import { useStateValue } from './StateProvider';
+import './Product.css';
 
-const Product = ({ id, image, brand, name, spec, rating, ratingCount, price }) => {
+const Product = ({
+  id, image, brand, name, spec, rating, ratingCount, price,
+}) => {
   const [{ winkelmandje }, dispatch] = useStateValue();
 
   const addItem = () => {
@@ -18,14 +20,14 @@ const Product = ({ id, image, brand, name, spec, rating, ratingCount, price }) =
         rating,
         ratingCount,
         price,
-      }
-    })
-  }
+      },
+    });
+  };
 
   return (
     <>
       <div className="product">
-        <img className="product__img" src={image} alt={brand}/>
+        <img className="product__img" src={image} alt={brand} />
         <div className="product__info">
           <p>{brand}</p>
           <p>{name}</p>
@@ -35,11 +37,11 @@ const Product = ({ id, image, brand, name, spec, rating, ratingCount, price }) =
         </div>
         <div className="product__buttons">
           <h3 className="product_price">{price}</h3>
-          <button onClick={addItem} className="product__cartButton"><ShoppingCartOutlinedIcon/></button>
-          <button className="product__heartButton"><FavoriteBorderIcon/></button>
+          <button type="button" onClick={addItem} className="product__cartButton"><ShoppingCartOutlinedIcon /></button>
+          <button type="button" className="product__heartButton"><FavoriteBorderIcon /></button>
         </div>
       </div>
-  </>
+    </>
   );
 };
 

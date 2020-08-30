@@ -82,6 +82,10 @@
   border-radius: 50%;
 }
 
+.navbar__signout {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1271px) {
   .navbar__logo {
     margin: 10px 0 10px 100px;

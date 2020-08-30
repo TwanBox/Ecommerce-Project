@@ -1,0 +1,71 @@
+.login__btnInloggen {
+  border-radius: 0%;
+  outline: none;
+  border: 1px solid lightgray;
+  color: #fff;
+  background-color: blue;
+  padding: 10px; 
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.login__btns {
+  display: flex;
+  margin-top: 15px;
+}
+
+.login__input {
+  padding: 8px 170px 8px 8px;
+  border-radius: 0px;
+  border: 0.5px solid gray;
+  margin-top: 10px;
+}
+
+.login__flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__row {
+  display: flex;
+}
+
+.login__hr {
+  margin: 0 30px  0  30px;
+}
+
+.login__wachtwoordVergeten {
+  color: blue;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.login__wachtwoordVergeten:hover {
+  text-decoration: underline;
+}
+
+.login__wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 739px) {
+  .login__row {
+    display: flex;
+    flex-direction: column;
+  }
+  .login__hr {
+    width: 0px;
+    margin-bottom: 50px;
+  }
+  .login__btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .login__input {
+    padding: 8px 300px 8px 8px;
+  }
+}
