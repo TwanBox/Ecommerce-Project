@@ -4,9 +4,15 @@
   align-items: center;
 }
 
+.navbar__wrapper {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
 .navbar__logo {
   width: 150px;
-  margin: 10px 0 10px 180px;
+  margin: 10px 0 10px 0px;
 }
 
 .navbar__search {

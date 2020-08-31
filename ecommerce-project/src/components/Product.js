@@ -31,7 +31,7 @@ const Product = ({
         <div className="product__info">
           <p>{brand}</p>
           <p>{name}</p>
-          <p>{spec}</p>
+          <p className="product__spec">{spec}</p>
           <span>{rating}</span>
           <span>{`(${ratingCount})`}</span>
         </div>

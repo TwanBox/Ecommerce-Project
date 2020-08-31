@@ -12,9 +12,9 @@ const Home = () => {
       />
       <Product
         id="3443589534543ID"
-        image="https://media.s-bol.com/oVVJp84lP9vj/168x168.jpg"
+        image="https://media.s-bol.com/37JzOV7qoW9/50x210.jpg"
         brand="Apple"
-        name="Apple AirPods 2 - Niet draadloze oplaadcase - Wit"
+        name="Belkin MIXIT Apple Lightning naar USB Kabel - 2 meter - Wit"
         specs="Draadloos | Geschikt voor Apple (iOS) | Met afstandsbediening | Met microfoon | Met Lightning aansluiting"
         rating="⭐⭐⭐⭐⭐"
         ratingCount={687}
@@ -22,13 +22,13 @@ const Home = () => {
       />
       <Product
         id="23423456786543ID"
-        image="https://media.s-bol.com/XQQoEO5DX8Ng/134x210.jpg"
+        image="https://media.s-bol.com/qYnM2nnljmz0/168x97.jpg"
         brand="Apple"
-        name="Apple EarPods - met lightning connector - wit"
+        name="Apple Macbook Air (2017) MQD32ZE/A - 13 inch - 128 GB"
         specs="Geschikt voor Apple (iOS) | Met afstandsbediening | Met microfoon | Met Lightning aansluiting"
         rating="⭐⭐⭐⭐"
-        ratingCount={438}
-        price={21.78}
+        ratingCount={137}
+        price={996}
       />
       <Product
         id="4357865467833ID"
