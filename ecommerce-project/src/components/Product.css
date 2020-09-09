@@ -1,6 +1,12 @@
 .product {
   display: flex;
   margin: 20px 0;
+  justify-content: space-between;
+}
+
+.product__img {
+  object-fit: contain;
+  
 }
 
 .product__buttons {

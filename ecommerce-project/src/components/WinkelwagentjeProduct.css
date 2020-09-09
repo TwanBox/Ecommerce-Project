@@ -10,7 +10,8 @@
 .winkelwagentjeProduct__image {
   width: 7vw;
   height: 13vh;
-  margin: 10px 10px 10px 0;
+  margin: 10px;
+  object-fit: contain;
 }
 
 .winkelwagentjeProduct__info {

@@ -49,11 +49,19 @@ a {
 }
 
 .winkelwagentje__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.winkelwagentje__notEmpty {
   margin: 20px 200px;
 }
 
 @media only screen and (max-width: 789px) {
-  .winkelwagentje__empty {
+  .winkelwagentje__notEmpty {
     margin: 20px 0px;
   }
   .winkelwagentje__btnBestellen {
@@ -65,7 +73,7 @@ a {
 }
 
 @media only screen and (max-width: 1270px) {
-  .winkelwagentje__empty {
+  .winkelwagentje__notEmpty {
     margin: 20px 110px;
   }
   .winkelwagentje__btnBestellen {
@@ -80,7 +88,7 @@ a {
 }
 
 @media only screen and (max-width: 1199px) {
-  .winkelwagentje__empty {
+  .winkelwagentje__notEmpty {
     margin: 20px 30px;
   }
   .winkelwagentje__btnBestellen {

@@ -24,7 +24,7 @@ const Winkelwagentje = () => {
           </Link>
         </div>
       ) : (
-        <div className="winkelwagentje__empty">
+        <div className="winkelwagentje__notEmpty">
           <div className="winkelwagentje__flexRow">
             <h1>Winkelwagentje</h1>
             <h5 className="winkelwagentje__select">Bestel nu en je bestelling wordt gratis verzonden!</h5>
